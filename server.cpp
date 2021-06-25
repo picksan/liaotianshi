@@ -76,14 +76,46 @@ void server::RecvMsg(int conn){
             break;
         }
         cout<<"收到套接字描述符为"<<conn<<"发来的信息："<<buffer<<endl;
-        //回复客户端
-        string ans="收到";
-        int ret = send(conn, ans.c_str(), ans.length(), 0);
-        //服务器收到exit或者异常关闭套接字描述符
-        if(ret<=0){
-            close(conn);
-            sock_arr[conn]=false;
-            break;
+        string str(buffer);
+        HandleRequest(conn,str);
+    }
+}
+
+void server::HandleRequest(int conn,string str){
+    char buffer[1000];
+    string name,pass;
+    // bool if_login=false;//记录当前服务对象是否成功登录
+    //string login_name;//记录当前服务对象的名字
+    //string target_name;//记录发送信息时目标用户的名字
+    //int group_num;//记录群号
+
+
+    //连接MYSQL数据库
+    MYSQL *con=mysql_init(NULL);
+    if(con == nullptr){
+        fprintf(stderr, "%s\n", mysql_error(con));
+        exit(EXIT_FAILURE);
+    }
+    if(!mysql_real_connect(con,"127.0.0.1","root","123456","ChatProject",0,NULL,CLIENT_MULTI_STATEMENTS)){
+        fprintf(stderr, "%s\n", mysql_error(con));
+        mysql_close(con);
+        exit(EXIT_FAILURE);
+    }
+
+    if(str.find("name:")!=str.npos){
+        int p1=str.find("name:"),p2=str.find("pass:");
+        name=str.substr(p1+5,p2-5);//参数一开始位置 参数二长度
+        pass=str.substr(p2+5,str.length()-p2-4);
+        string search="INSERT INTO USER VALUES (\"";
+        search+=name;
+        search+="\",\"";
+        search+=pass;
+        search+="\");";
+        cout<<"sql语句:"<<search<<endl<<endl;
+        if(mysql_query(con,search.c_str())){
+            fprintf(stderr, "%s\n", mysql_error(con));
+            mysql_close(con);
+            exit(EXIT_FAILURE);
         }
     }
 }

@@ -1,0 +1,1202 @@
+正在排序...
+全文搜索...
+akonadi-backend-mysql/stable 4:18.08.3-7~deb10u1 all
+  MySQL storage backend for Akonadi
+
+ampache-themes/stable 3.6.1-2 all
+  Themes for Ampache
+
+apophenia-bin/stable 1.0+ds-7+b3 armhf
+  Apophenia Statistical C Library -- binary package
+
+apophenia-doc/stable 1.0+ds-7 all
+  Apophenia Statistical C Library -- reference manual
+
+asterisk-mysql/stable 1:16.2.1~dfsg-1+deb10u2 armhf
+  MySQL database protocol support for the Asterisk PBX
+
+audiolink/stable 0.05-3 all
+  makes managing and searching for music easier
+
+auth2db/stable 0.2.5-2+dfsg-5 all
+  Powerful and eye-candy IDS logger, log viewer and alert generator
+
+auth2db-common/stable 0.2.5-2+dfsg-5 all
+  Common configuration files for Auth2db backend and web frontend
+
+auth2db-filters/stable 0.2.5-2+dfsg-5 all
+  Auth2db defaults filters pack
+
+auth2db-frontend/stable 0.2.5-2+dfsg-5 all
+  Web frontend view for auth2DB log engine
+
+automysqlbackup/stable 2.6+debian.4-2 all
+  daily, weekly and monthly backup for your MySQL database
+
+autopostgresqlbackup/stable 1.1-1 all
+  Automated tool to make periodic backups of PostgreSQL databases
+
+backup-manager/stable 0.7.14-1+deb10u1 all
+  command-line backup tool
+
+backupninja/stable 1.1.0-2.1 all
+  lightweight, extensible meta-backup system
+
+bacula-common-mysql/stable 9.4.2-2+deb10u1 armhf
+  network backup service - MySQL common files
+
+bacula-director-mysql/stable 9.4.2-2+deb10u1 all
+  network backup service - MySQL storage for Director
+
+bareos-database-mysql/stable 16.2.6-5 armhf
+  Backup Archiving Recovery Open Sourced - MySQL backend
+
+bibus/stable 1.5.2+dfsg-1 all
+  bibliographic database
+
+cacti/stable 1.2.2+ds1-2+deb10u4 all
+  web interface for graphing of monitoring systems
+
+cedar-backup2/stable 2.27.0-5 all
+  local and remote backups to CD/DVD media or Amazon S3 storage
+
+cedar-backup2-doc/stable 2.27.0-5 all
+  local and remote backups to CD/DVD media or Amazon S3 storage (documentation)
+
+cedar-backup3/stable 3.1.12-5 all
+  local and remote backups to CD/DVD media or Amazon S3 storage
+
+cedar-backup3-doc/stable 3.1.12-5 all
+  local and remote backups to CD/DVD media or Amazon S3 storage (documentation)
+
+changeme/stable 1.1.1-2 all
+  Default credential scanner
+
+cl-pgloader/stable 3.6.1-1 all
+  extract, transform and load data into PostgreSQL
+
+cl-qmynd/stable 20180131-1 all
+  MySQL Native Driver for Common Lisp
+
+cl-sql-mysql/stable 6.7.0-1.1+b1 armhf
+  CLSQL database backend, MySQL
+
+cl-sql-tests/stable 6.7.0-1.1 all
+  Testing suite for CLSQL
+
+collectd-core/stable 5.8.1-1.3 armhf
+  statistics collection and monitoring daemon (core system)
+
+coturn/stable 4.5.1.1-1.1+deb10u2 armhf
+  TURN and STUN server for VoIP
+
+courier-authlib-mysql/stable 0.69.0-2 armhf
+  MySQL support for the Courier authentication library
+
+courier-webadmin/stable 1.0.6-1 armhf
+  Courier mail server - web-based administration frontend
+
+cqrlog/stable 2.3.0-2 armhf
+  Advanced logging program for hamradio operators
+
+cvm-mysql/stable 0.97-0.1+b1 armhf
+  Credential Validation Modules (MySQL)
+
+dbconfig-common/stable 2.0.11+deb10u1 all
+  framework that helps packages to manage databases
+
+dbconfig-mysql/stable 2.0.11+deb10u1 all
+  dbconfig-common MySQL/MariaDB support
+
+dbf2mysql/stable 1.14a-5.1+b1 armhf
+  xBase to MySQL or vice versa
+
+default-libmysqlclient-dev/stable 1.0.5 armhf
+  MySQL database development files (metapackage)
+
+default-libmysqld-dev/stable 1.0.5 armhf
+  MySQL embedded database development files (metapackage)
+
+default-mysql-client/stable 1.0.5 all
+  MySQL database client binaries (metapackage)
+
+default-mysql-client-core/stable 1.0.5 all
+  MySQL database core client binaries (metapackage)
+
+default-mysql-server/stable 1.0.5 all
+  MySQL database server binaries and system database setup (metapackage)
+
+default-mysql-server-core/stable 1.0.5 all
+  MySQL database server binaries (metapackage)
+
+diaspora-installer-mysql/stable 0.7.6.1+debian1+deb10u1 all
+  distributed social networking service - installer (with MySQL)
+
+dish/stable 1.19.1-1 all
+  diligence/distributed shell for parallel sysadmin
+
+dovecot-mysql/stable 1:2.3.4.1-5+deb10u6 armhf
+  secure POP3/IMAP server - MySQL support
+
+dpm-copy-server-mysql/stable 1.10.0-2+b3 armhf
+  DPM copy server with MySQL database backend
+
+dpm-name-server-mysql/stable 1.10.0-2+b3 armhf
+  DPM nameserver server with MySQL database backend
+
+dpm-server-mysql/stable 1.10.0-2+b3 armhf
+  Disk Pool Manager (DPM) server with MySQL database backend
+
+dpm-srm-server-mysql/stable 1.10.0-2+b3 armhf
+  DPM SRM server with MySQL database backend
+
+dpsyco-mysql/stable 1.0.36 all
+  Automate administration of access to mysql
+
+emma/stable 0.6-5 all
+  extendable MySQL managing assistant
+
+erlang-p1-mysql/stable 1.0.8-1 armhf
+  pure Erlang MySQL driver
+
+exim4-daemon-heavy/stable 4.92-8+deb10u6 armhf
+  Exim MTA (v4) daemon with extended features, including exiscan-acl
+
+ferret/stable 0.7-2 all
+  CASE tool for data model editing
+
+fonts-glewlwyd/stable 1.4.9-1 all
+  OAuth2 authentication server providing Json Web Tokens - font files
+
+fp-units-db/stable 3.0.4+dfsg-22+rpi1 armhf
+  Free Pascal - database-library units dependency package
+
+fp-units-db-3.0.4/stable 3.0.4+dfsg-22+rpi1 armhf
+  Free Pascal - database-library units
+
+freeradius-mysql/stable 3.0.17+dfsg-1.1 armhf
+  MySQL module for FreeRADIUS server
+
+fsgateway/stable 0.1.1-5 armhf
+  FUSE module to browse database's metadata, sugar datastores and xml files
+
+gambas3/stable 3.12.2-1 all
+  Complete visual development environment for Gambas
+
+gambas3-gb-db-mysql/stable 3.12.2-1+b1 armhf
+  MySQL driver for the Gambas database
+
+gambas3-gb-mysql/stable 3.12.2-1+b1 armhf
+  Gambas MySQL component
+
+gbirthday/stable 0.6.10-0.1 all
+  birthday reminder applet
+
+glewlwyd/stable 1.4.9-1+b1 armhf
+  OAuth2 authentication server providing Json Web Tokens
+
+glewlwyd-common/stable 1.4.9-1 all
+  OAuth2 authentication server providing Json Web Tokens - common files
+
+gmysqlcc/stable 0.3.0-6+b1 armhf
+  graphical client for managing MySQL databases
+
+gnokii-smsd-mysql/stable 0.6.30+dfsg-1.2+b1 armhf
+  SMSD plugin for MySQL storage backend
+
+gnuais/stable 0.3.3-8+b1 armhf
+  AIS receiver which uses the discriminator output of VHF receivers
+
+goiardi/stable 0.11.9-3 armhf
+  Chef server written in Go
+
+goiardi-doc/stable 0.11.9-3 all
+  Documentation for Goiardi
+
+golang-github-boltdb-bolt-dev/stable 1.3.1-5 all
+  low-level key/value database for Go
+
+golang-github-coreos-bbolt-dev/stable 1.3.1-coreos.5-3 all
+  low-level key/value database for Go, especially CoreOS's etcd
+
+golang-github-ctdk-goiardi-dev/stable 0.11.9-3 all
+  Golang library to interact with a chef server
+
+golang-github-go-macaron-session-dev/stable 0.0~git20151014.0.66031fc-2 all
+  session management middleware for Macaron
+
+golang-github-go-sql-driver-mysql-dev/stable 1.4.1-1 all
+  MySQL-Driver for Go's database/sql package
+
+golang-github-go-xorm-builder-dev/stable 0.3.3-1 all
+  SQL builder for XORM written in Go
+
+golang-github-go-xorm-core-dev/stable 0.6.0-1 all
+  lightweight & compatible wrapper of database/sql
+
+golang-github-go-xorm-xorm-dev/stable 0.6.4-3 all
+  Simple and Powerful ORM for Go, support mysql/sqlite3/postgres/mssql/oracle
+
+golang-github-ngaut-sync2-dev/stable 0.0~git20141008.0.7a24ed7-6 all
+  Additional synchronization primitives extracted from Vitess
+
+golang-gopkg-testfixtures.v2-dev/stable 2.2.0-2 all
+  Rails-like test fixtures for Go
+
+groonga-normalizer-mysql/stable 1.1.3-2 armhf
+  MySQL derived normalizer for Groonga
+
+hibiscus/stable 2.8.21+dfsg-1+deb10u1 all
+  Java online banking client using the HBCI standard
+
+hibiscus-doc/stable 2.8.21+dfsg-1+deb10u1 all
+  Java online banking client using the HBCI standard - documentation package
+
+homer-api-mysql/stable 5.0.6+dfsg2-3.1+b1 armhf
+  HOMER Capture Node REST API
+
+hoteldruid/stable 2.3.2-1 all
+  web-based property management system for hotels or B&Bs
+
+htcheck-php/stable 1:2.0.0~rc1-2 all
+  Simple php interface to database generated by ht://Check
+
+hydra/stable 8.8-1+b1 armhf
+  very fast network logon cracker
+
+hydra-gtk/stable 8.8-1+b1 armhf
+  very fast network logon cracker - GTK+ based GUI
+
+icinga-web-config-icinga2-ido-mysql/stable 1.13.1-2 all
+  host and network monitoring system - config for Icinga 2 MySQL IDO
+
+icinga2-ido-mysql/stable 2.10.3-2+deb10u1 armhf
+  host and network monitoring system - MySQL support
+
+ilohamail/stable 0.8.14-0rc3sid6.2 all
+  Light weight yet full featured multilingual web-based IMAP/POP3 client
+
+irssi-scripts/stable 20181120 all
+  collection of scripts for irssi
+
+jffnms/stable 0.9.3-3 all
+  PHP Network Management System
+
+kamailio-mysql-modules/stable 5.2.1-1+b1 armhf
+  MySQL database connectivity module for Kamailio
+
+kannel/stable 1.4.5-2+b1 armhf
+  WAP and SMS gateway
+
+kbtin/stable 1.0.19-2 armhf
+  tintin++ style text-based MUD client
+
+kea-dhcp4-server/stable 1.4.0.P1-2+b1 armhf
+  ISC KEA IPv4 DHCP server
+
+kea-dhcp6-server/stable 1.4.0.P1-2+b1 armhf
+  ISC KEA IPv6 DHCP server
+
+kexi-mysql-driver/stable 1:3.1.0-4+b1 armhf
+  MySQL support for kexi
+
+lcmaps-plugins-jobrep-admin/stable 1.5.6-1 all
+  Jobrepository database setup tools
+
+letodms/stable 3.4.2+dfsg-3 all
+  document management system based on PHP and MySQL
+
+letodms-webdav/stable 3.4.2+dfsg-3 all
+  document management system based on PHP and MySQL - WebDAV server
+
+lfc-server-mysql/stable 1.10.0-2+b3 armhf
+  LCG File Catalog (LFC) server with MySQL database backend
+
+libapache2-mod-log-slow/stable 1.0.8-3+b5 armhf
+  Apache module for logging of slow requests handling
+
+libapache2-mod-log-sql/stable 1.100-16.3+b6 armhf
+  Use SQL to store/write your Apache queries logs - Base
+
+libapache2-mod-log-sql-dbi/stable 1.100-16.3+b6 armhf
+  Use SQL to store/write your Apache queries logs - DBI interface
+
+libapache2-mod-log-sql-mysql/stable 1.100-16.3+b6 armhf
+  Use SQL to store/write your Apache queries logs - MySQL interface
+
+libapophenia2/stable 1.0+ds-7+b3 armhf
+  Apophenia Statistical C Library -- library package
+
+libapophenia2-dev/stable 1.0+ds-7+b3 armhf
+  Apophenia Statistical C Library -- development package
+
+libaprutil1-dbd-mysql/stable 1.6.1-4 armhf
+  Apache Portable Runtime Utility Library - MySQL Driver
+
+libcgi-application-plugin-ratelimit-perl/stable 1.0-3 all
+  Perl module for limiting the runmode call rate per user
+
+libcgi-session-expiresessions-perl/stable 1.13-2 all
+  automatic deletion of expired CGI sessions
+
+libclass-dbi-loader-perl/stable 0.34-3 all
+  Perl module for dynamic definition of Class::DBI sub classes
+
+libclass-dbi-mysql-perl/stable 1.00-4 all
+  extensions to Class::DBI for MySQL
+
+libclass-dbi-perl/stable 3.0.17-4 all
+  convenient abstraction layer to a database
+
+libcommons-csv-java/stable 1.5-1 all
+  Library for reading and writing CSV files
+
+libcommons-csv-java-doc/stable 1.5-1 all
+  Library for reading and writing CSV files (documentation)
+
+libcppdb-dev/stable 0.3.1+dfsg-8+b1 armhf
+  SQL Connectivity Library (development files)
+
+libcppdb-mysql0/stable 0.3.1+dfsg-8+b1 armhf
+  SQL Connectivity Library (MySQL backend)
+
+libcppdb-odbc0/stable 0.3.1+dfsg-8+b1 armhf
+  SQL Connectivity Library (odbc backend)
+
+libcppdb-postgresql0/stable 0.3.1+dfsg-8+b1 armhf
+  SQL Connectivity Library (PostgreSQL backend)
+
+libcppdb-sqlite3-0/stable 0.3.1+dfsg-8+b1 armhf
+  SQL Connectivity Library (sqlite3 backend)
+
+libcppdb0/stable 0.3.1+dfsg-8+b1 armhf
+  SQL Connectivity Library (core library)
+
+libcrypt-mysql-perl/stable 0.04-6+b4 armhf
+  Perl module to emulate the MySQL PASSWORD() function
+
+libdatetime-format-dbi-perl/stable 0.041-2 all
+  abstraction layer for DateTime over some database vendors
+
+libdatetime-format-mysql-perl/stable 0.06-1 all
+  module to parse and format MySQL dates and times
+
+libdbd-mariadb-perl/stable 1.11-3 armhf
+  Perl5 database interface to the MariaDB/MySQL databases
+
+libdbd-mock-perl/stable 1.45-2 all
+  Mock database driver for testing
+
+libdbd-mysql/stable 0.9.0-6+b1 armhf
+  MySQL database server driver for libdbi
+
+libdbd-mysql-perl/stable 4.050-2 armhf
+  Perl5 database interface to the MariaDB/MySQL database
+
+libdbd-sqlite2-perl/stable 2:0.38-1+b1 armhf
+  Perl DBI driver with a self-contained RDBMS (SQLite2 version)
+
+libdbd-sqlite3-perl/stable 1.62-3 armhf
+  Perl DBI driver with a self-contained RDBMS
+
+libdbi-perl/stable 1.642-1+deb10u2 armhf
+  Perl Database Interface (DBI)
+
+libdbix-class-perl/stable 0.082841-1 all
+  extensible and flexible object <-> relational mapper
+
+libdbix-class-schema-loader-perl/stable 0.07049-1 all
+  module to automate definition of a DBIx::Class::Schema
+
+libdbix-datasource-perl/stable 0.02-5 all
+  database-independent module to create and drop functions
+
+libdbix-dbschema-perl/stable 0.45-1 all
+  Perl module to manipulate schemas independently of databases
+
+libdbix-easy-perl/stable 0.21-1 all
+  Easy to Use DBI Interface
+
+libdbix-fulltextsearch-perl/stable 0.73-12 all
+  Indexing documents with MySQL as storage
+
+libdbix-introspector-perl/stable 0.001005-1 all
+  module to detect what database code is connected to
+
+libeigenbase-farrago-java/stable 0.9.0-2 all
+  Java framework for constructing RDBMS services
+
+libgda-5.0-mysql/stable 5.2.8-1+b1 armhf
+  MySQL provider for libgda database abstraction library
+
+libghc-hdbc-dev/stable 2.4.0.2-4+b1 armhf
+  Haskell Database Connectivity, GHC package
+
+libghc-hdbc-doc/stable 2.4.0.2-4 all
+  Haskell Database Connectivity, Documentation
+
+libghc-hdbc-odbc-dev/stable 2.3.1.1-9+b2 armhf
+  unixODBC HDBC (Haskell Database Connectivity) Driver for GHC
+
+libghc-hdbc-odbc-doc/stable 2.3.1.1-9 all
+  unixODBC HDBC (Haskell Database Connectivity) Documentation
+
+libghc-hdbc-odbc-prof/stable 2.3.1.1-9+b2 armhf
+  unixODBC Haskell Database Connectivity Driver; profiling libraries
+
+libghc-hdbc-sqlite3-dev/stable 2.3.3.1-7+b1 armhf
+  Sqlite v3 HDBC (Haskell Database Connectivity) Driver for GHC
+
+libghc-hdbc-sqlite3-doc/stable 2.3.3.1-7 all
+  Sqlite v3 HDBC (Haskell Database Connectivity) Documentation
+
+libghc-hdbc-sqlite3-prof/stable 2.3.3.1-7+b1 armhf
+  Sqlite v3 HDBC Driver for GHC; profiling libraries
+
+libghc-highlighting-kate-dev/stable 0.6.4-5+b1 armhf
+  syntax highlighting library based on Kate syntax descriptions
+
+libghc-highlighting-kate-doc/stable 0.6.4-5 all
+  library documentation for highlighting-kate; documentation
+
+libghc-highlighting-kate-prof/stable 0.6.4-5+b1 armhf
+  highlighting-kate library with profiling enabled; profiling libraries
+
+libghc-relational-schemas-dev/stable 0.1.6.2-2+b2 armhf
+  RDBMSs' schema templates for relational-query
+
+libghc-relational-schemas-doc/stable 0.1.6.2-2 all
+  RDBMSs' schema templates for relational-query; documentation
+
+libghc-relational-schemas-prof/stable 0.1.6.2-2+b2 armhf
+  RDBMSs' schema templates for relational-query; profiling libraries
+
+libglpk40/stable 4.65-2 armhf
+  linear programming kit with integer (MIP) support
+
+libhoel-dev/stable 1.4.8-4+b1 armhf
+  database abstraction library written in C - development
+
+libhoel1.4/stable 1.4.8-4+b1 armhf
+  database abstraction library written in C
+
+libinnodb-dbg/stable 1.0.6.6750-1 armhf
+  Embedded InnoDB Library (debug files)
+
+libinnodb-dev/stable 1.0.6.6750-1 armhf
+  Embedded InnoDB Library (dev files)
+
+libinnodb3/stable 1.0.6.6750-1 armhf
+  Embedded InnoDB Library
+
+libjunixsocket-java/stable 2.0.4-1 all
+  Unix Domain Sockets in Java
+
+libjunixsocket-jni/stable 2.0.4-1 armhf
+  Unix Domain Sockets in Java (JNI library)
+
+libkdb3-driver-mysql/stable 3.1.0-5+b1 armhf
+  MySQL driver for KDb
+
+libkiokudb-backend-dbi-perl/stable 1.23-2 all
+  DBI backend for KiokuDB
+
+libluasandbox-bin/stable 1.2.1-4 armhf
+  Generic Lua sandbox library for dynamic data analysis – utilities
+
+libluasandbox-dev/stable 1.2.1-4 armhf
+  Generic Lua sandbox library for dynamic data analysis – development files
+
+libluasandbox0/stable 1.2.1-4 armhf
+  Generic Lua sandbox library for dynamic data analysis — dynamic library
+
+libmariadb-dev/stable 1:10.3.29-0+deb10u1 armhf
+  MariaDB database development files
+
+libmariadb-dev-compat/stable 1:10.3.29-0+deb10u1 armhf
+  MariaDB Connector/C, compatibility symlinks
+
+libmariadb-java/stable 2.3.0-1 all
+  Java database driver for MariaDB and MySQL
+
+libmysql-cil-dev/stable 6.4.3-4 all
+  MySQL database connector for CLI
+
+libmysql-diff-perl/stable 0.60-1 all
+  module for comparing the table structure of two MySQL databases
+
+libmysql-java/stable 5.1.45-1 all
+  Java database (JDBC) driver for MySQL
+
+libmysql-ocaml/stable 1.2.1-1+b2 armhf
+  OCaml bindings for MySql (runtime package)
+
+libmysql-ocaml-dev/stable 1.2.1-1+b2 armhf
+  OCaml bindings for MySql (development package)
+
+libmysql6.4-cil/stable 6.4.3-4 all
+  MySQL database connector for CLI
+
+libmysqlcppconn-dev/stable 1.1.9-4+b1 armhf
+  MySQL Connector for C++ (development files)
+
+libmysqlcppconn7v5/stable 1.1.9-4+b1 armhf
+  MySQL Connector for C++ (library)
+
+libnet-google-safebrowsing2-perl/stable 1.07-6 all
+  Perl extension for the Google Safe Browsing v2 API
+
+libodb-mysql-2.4/stable 2.4.0-4+b1 armhf
+  ODB Runtime Library for MySQL
+
+libodb-mysql-dev/stable 2.4.0-4+b1 armhf
+  ODB Runtime Library for MySQL (development)
+
+libopendbx1-mysql/stable 1.4.6-13+b1 armhf
+  MySQL backend for OpenDBX
+
+libpam-mysql/stable 0.8.1-1+b1 armhf
+  PAM module interfacing with MySQL databases
+
+libphp-adodb/stable 5.20.14-1 all
+  ADOdb is a PHP database abstraction layer library
+
+libpoco-doc/stable 1.3.6-1 all
+  Documentation for POCO - The C++ Portable Components
+
+libpocodatamysql60/stable 1.9.0-5+b1 armhf
+  C++ Portable Components (POCO) Data MySQL library
+
+libpreludedb7-mysql/stable 4.1.0-2+b2 armhf
+  Security Information and Events Management System [ MySQL library ]
+
+libqt4-sql-mysql/stable 4:4.8.7+dfsg-18+rpi1+deb10u1 armhf
+  Qt 4 MySQL database driver
+
+libqt5sql5-mysql/stable 5.11.3+dfsg1-1+rpi1+deb10u4 armhf
+  Qt 5 MySQL database driver
+
+librdf-storage-mysql/stable 1.0.17-1.1+b1 armhf
+  RDF library, MySQL backend
+
+librdf-trine-perl/stable 1.019-2 all
+  RDF Framework for Perl
+
+librdf0/stable 1.0.17-1.1+b1 armhf
+  Redland Resource Description Framework (RDF) library
+
+libreoffice-base-drivers/testing 1:6.1.5-3+rpi1+deb10u7+rpt1 armhf
+  Database connectivity drivers for LibreOffice
+
+libreoffice-mysql-connector/testing 1.0.2+LibO6.1.5-3+rpi1+deb10u7+rpt1 armhf
+  MariaDB/MySQL Connector extension for LibreOffice
+
+libreoffice-mysql-connector-dbgsym/testing 1.0.2+LibO6.1.5-3+rpi1+deb10u7+rpt1 armhf
+  debug symbols for libreoffice-mysql-connector
+
+libsasl2-modules-sql/stable 2.1.27+dfsg-1+deb10u1 armhf
+  Cyrus SASL - pluggable authentication modules (SQL)
+
+libsoci-mysql3.2/stable 3.2.3-2+b1 armhf
+  C++ Database Access Library (MySQL backend)
+
+libsql-reservedwords-perl/stable 0.8-2 all
+  Perl extension that indicates if words are reserved by SQL
+
+libsqlclient-dev/stable 1.8.1-3+b2 armhf
+  SQL client library for GNUstep (development files)
+
+libsqlclient1.8/stable 1.8.1-3+b2 armhf
+  SQL client library for GNUstep (runtime library)
+
+libsqlite3-mod-impexp/stable 0.9996-1 armhf
+  SQLite3 extension module for SQL script, XML, JSON and CSV import/export
+
+libtango-dev/stable 9.2.5a+dfsg1-2+b2 armhf
+  TANGO distributed control system - development library
+
+libtango-doc/stable 9.2.5a+dfsg1-2 all
+  TANGO distributed control system - documentation
+
+libtango9/stable 9.2.5a+dfsg1-2+b2 armhf
+  TANGO distributed control system - shared library
+
+libterralib-dev/stable 4.3.0+dfsg.2-11+b1 armhf
+  C++ library for Geographical Information Systems -- development package
+
+libterralib-doc/stable 4.3.0+dfsg.2-11 all
+  C++ library for Geographical Information Systems -- documentation package
+
+libterralib3/stable 4.3.0+dfsg.2-11+b1 armhf
+  C++ library for Geographical Information Systems
+
+libtext-tabulardisplay-perl/stable 1.38-1 all
+  Perl module to display text as a formatted table
+
+libtime-piece-mysql-perl/stable 0.06-2 all
+  module adding MySQL-specific methods to Time::Piece
+
+libtntdb-dev/stable 1.3-4+b1 armhf
+  Development headers for tntdb
+
+libtntdb4v5/stable 1.3-4+b1 armhf
+  C++ class library for easy database access
+
+libur-perl/stable 0.470+ds-1 all
+  object/relation mapper library
+
+libuser-simple-perl/stable 1.45-2 all
+  module for simple user sessions management
+
+libzdb-dev/stable 3.1-0.2+b1 armhf
+  Zild Database Library [devel]
+
+libzdb11/stable 3.1-0.2+b1 armhf
+  Zild Database Library [runtime]
+
+lighttpd-mod-authn-mysql/stable 1.4.53-4+deb10u1 armhf
+  Transitional dummy package for MySQL authentication for lighttpd
+
+lighttpd-mod-mysql-vhost/stable 1.4.53-4+deb10u1 armhf
+  Transitional dummy package for lighttpd MySQL-based vhost config
+
+lighttpd-modules-mysql/stable 1.4.53-4+deb10u1 armhf
+  MySQL-based modules for lighttpd
+
+lua-dbi-mysql/stable 0.7.1-2+b1 armhf
+  DBI library for the Lua language, MySQL backend
+
+lua-dbi-mysql-dev/stable 0.7.1-2+b1 armhf
+  DBI library for the Lua language, MySQL development files
+
+lua-sql-mysql/stable 2.3.4-1+b1 armhf
+  luasql library for the Lua language
+
+lua-sql-mysql-dev/stable 2.3.4-1+b1 armhf
+  luasql development files for the Lua language
+
+maatkit/stable 7540-2 all
+  Command-line utilities for MySQL
+
+mailman3/stable 3.2.1-1 all
+  Mailing list management system
+
+mailman3-core/stable 3.1.1-5 all
+  Mailing list management system
+
+mailman3-web/stable 0+20180916-8 all
+  Django project integrating Mailman3 Postorius and HyperKitty
+
+mantis/stable 1.2.11-1.2 all
+  web-based bug tracking system
+
+mariadb-client-10.0/stable 10.0.28-2+b1 armhf
+  MariaDB database client binaries
+
+mariadb-client-10.3/stable 1:10.3.29-0+deb10u1 armhf
+  MariaDB database client binaries
+
+mariadb-plugin-connect/stable 1:10.3.29-0+deb10u1 armhf
+  Connect storage engine for MariaDB
+
+mha4mysql-manager/stable 0.58-1 all
+  Master High Availability Manager and Tools for MySQL, Manager Package
+
+mha4mysql-node/stable 0.58-1 all
+  Master High Availability Manager and Tools for MySQL, Node Package
+
+monitoring-plugins-standard/stable 2.2-6 armhf
+  Plugins for nagios compatible monitoring systems (standard)
+
+monodoc-mysql-manual/stable 6.4.3-4 all
+  compiled XML documentation for the MySql.Data library
+
+mycli/stable 1.16.0-1 all
+  CLI for MySQL/MariaDB
+
+mydumper/stable 0.9.5-1+deb10u1 armhf
+  High-performance MySQL backup tool
+
+mydumper-doc/stable 0.9.5-1+deb10u1 all
+  High-performance MySQL backup tool - documentation
+
+mylvmbackup/stable 0.15-1.1 all
+  quickly creating backups of MySQL server's data files
+
+mypager/stable 0.6.1-1 all
+  pager for MySQL/PostgreSQL command line clients
+
+mysql-common/stable,now 5.8+1.0.5 all [已安装，自动]
+  MySQL database common files, e.g. /etc/mysql/my.cnf
+
+mysql-sandbox/stable 3.2.05-1 all
+  Install and set up one or more MySQL server instances easily
+
+mysql-utilities/stable 1.6.4-1 all
+  collection of scripts for managing MySQL servers
+
+mysqltcl/stable 3.052-3+b1 armhf
+  interface to the MySQL database for the Tcl language
+
+mysqltuner/stable 1.7.13-1 all
+  high-performance MySQL tuning script
+
+mysqmail/stable 0.4.9-10.2 all
+  real-time logging system in MySQL
+
+mysqmail-courier-logger/stable 0.4.9-10.2+b9 armhf
+  real-time logging system in MySQL - Courier traffic-logger
+
+mysqmail-dovecot-logger/stable 0.4.9-10.2+b9 armhf
+  real-time logging system in MySQL - Dovecot traffic-logger
+
+mysqmail-postfix-logger/stable 0.4.9-10.2+b9 armhf
+  real-time logging system in MySQL - Postfix traffic-logger
+
+mysqmail-pure-ftpd-logger/stable 0.4.9-10.2+b9 armhf
+  real-time logging system in MySQL - Pure-FTPd traffic-logger
+
+mytop/stable 1.9.1-4 all
+  top like query monitor for MySQL
+
+nagios-plugins-contrib/stable 24.20190301 armhf
+  Plugins for nagios compatible monitoring systems
+
+node-mysql/stable 2.16.0-1+deb10u1 all
+  MySQL client implementation for Node.js
+
+note/stable 1.3.26-2 all
+  small program managing notes from commandline
+
+nova-api/stable 2:18.1.0-6 all
+  OpenStack Compute - compute API frontend
+
+nova-cells/stable 2:18.1.0-6 all
+  Openstack Compute - cells
+
+nova-common/stable 2:18.1.0-6 all
+  OpenStack Compute - common files
+
+nova-compute/stable 2:18.1.0-6 all
+  OpenStack Compute - compute node
+
+nova-compute-ironic/stable 2:18.1.0-6 all
+  OpenStack Compute - compute node (Ironic)
+
+nova-compute-kvm/stable 2:18.1.0-6 all
+  OpenStack Compute - compute node (KVM)
+
+nova-compute-lxc/stable 2:18.1.0-6 all
+  OpenStack Compute - compute node (LXC)
+
+nova-compute-qemu/stable 2:18.1.0-6 all
+  OpenStack Compute - compute node (QEmu)
+
+nova-conductor/stable 2:18.1.0-6 all
+  OpenStack Compute - conductor service
+
+nova-console/stable 2:18.1.0-6 all
+  OpenStack Compute - console
+
+nova-consoleauth/stable 2:18.1.0-6 all
+  OpenStack Compute - Console Authenticator
+
+nova-consoleproxy/stable 2:18.1.0-6 all
+  OpenStack Compute - NoVNC proxy
+
+nova-doc/stable 2:18.1.0-6 all
+  OpenStack Compute - documentation
+
+nova-placement-api/stable 2:18.1.0-6 all
+  OpenStack compute - placement API
+
+nova-scheduler/stable 2:18.1.0-6 all
+  OpenStack Compute - virtual machine scheduler
+
+nova-volume/stable 2:18.1.0-6 all
+  OpenStack Compute - storage metapackage
+
+oar-server-mysql/stable 2.5.8-1+deb10u1 armhf
+  OAR batch scheduler MySQL server backend package
+
+oar-user-mysql/stable 2.5.8-1+deb10u1 armhf
+  OAR batch scheduler MySQL user backend package
+
+opendnssec-enforcer/stable 1:2.1.3-2 all
+  tool to prepare DNSSEC keys (common package)
+
+opendnssec-enforcer-mysql/stable 1:2.1.3-2 armhf
+  tool to prepare DNSSEC keys (MySQL backend)
+
+opensmtpd-extras/stable 5.7.1-4+b2 armhf
+  addons for the OpenSMTPD SMTP server
+
+openstack-cloud-services/stable 0.25 all
+  Metapackage to install all Openstack service dependencies
+
+ora2pg/stable 20.0-1 all
+  Oracle/MySQL to PostgreSQL database schema converter
+
+orthanc-mysql/stable 2.0-2 armhf
+  Plugins to use MySQL or MariaDB as a database back-end to Orthanc
+
+papercut/stable 0.9.13-7.1 all
+  simple and extensible NNTP server
+
+parser3-mysql/stable 10.7-4 armhf
+  MySQL driver for Parser 3
+
+patator/stable 0.7-2 all
+  Multi-purpose brute-forcer
+
+pdns-backend-mysql/stable 4.1.6-3+rpi1+deb10u1 armhf
+  generic MySQL backend for PowerDNS
+
+peewee/stable 3.7.0+dfsg-1 all
+  Command line Tools for python peewee (Python 3)
+
+percona-toolkit/stable 3.0.13-1 all
+  Command-line tools for MySQL and system tasks
+
+perdition/stable 2.2-3+b3 armhf
+  POP3 and IMAP4 Proxy server
+
+perdition-mysql/stable 2.2-3+b3 armhf
+  Library to allow perdition to access MySQL based popmaps
+
+pgloader/stable 3.6.1-1 armhf
+  extract, transform and load data into PostgreSQL
+
+php-db/stable 1.9.2-2 all
+  Database Abstraction Layer
+
+php-illuminate-container/stable 5.7.27-1 all
+  Illuminate Database, Container component
+
+php-illuminate-contracts/stable 5.7.27-1 all
+  Illuminate Database, Contracts component
+
+php-illuminate-database/stable 5.7.27-1 all
+  Illuminate Database
+
+php-illuminate-support/stable 5.7.27-1 all
+  Illuminate Database, Support component
+
+php-mdb2-driver-mysql/stable 1.5.0b4-2 all
+  mysql MDB2 driver
+
+php-mysql/stable 2:7.3+69 all
+  MySQL module for PHP [default]
+
+php-pinba/stable 1.1.0-5+b1 armhf
+  Pinba module for PHP
+
+php-zend-db/stable 2.8.1-1 all
+  Zend Framework - Db component
+
+php7.1-mysql/stable 7.1.20-1+b2 armhf
+  MySQL module for PHP
+
+php7.2-mysql/stable 7.2.9-1+b2 armhf
+  MySQL module for PHP
+
+php7.3-mysql/stable 7.3.27-1~deb10u1 armhf
+  MySQL module for PHP
+
+phpmyadmin/stable 4:4.6.6-5 all
+  MySQL web administration tool
+
+pike8.0-core/stable 8.0.702-1 armhf
+  Powerful interpreted programming language
+
+pike8.0-mysql/stable 8.0.702-1 armhf
+  MySQL modules for Pike
+
+pnopaste/stable 1.7-1 all
+  Pastebin with syntax highlighting
+
+pnopaste-cli/stable 1.7-1 all
+  Pastebin with syntax highlighting (cli tool)
+
+postfix-cluebringer-mysql/stable 2.0.10-1 all
+  metapackage for mysql support in postfix-cluebringer
+
+postfix-gld/stable 1.7-8+b1 armhf
+  greylisting daemon for postfix, written in C, uses MySQL
+
+postfix-mysql/stable 3.4.14-0+deb10u1 armhf
+  MySQL map support for Postfix
+
+postgresql-11-mysql-fdw/stable 2.5.1-1 armhf
+  Postgres 11 Foreign Data Wrapper for MySQL
+
+proftpd-mod-mysql/stable 1.3.6-4+deb10u5 armhf
+  Versatile, virtual-hosting FTP daemon - MySQL module
+
+prometheus-mysqld-exporter/stable 0.11.0+ds-1 armhf
+  Prometheus exporter for MySQL server.
+
+prometheus-sql-exporter/stable 0.2.0.ds-6 armhf
+  Flexible SQL Exporter for Prometheus
+
+puppet-module-puppetlabs-mysql/stable 5.3.0-1 all
+  Puppet module for MySQL
+
+pure-ftpd-mysql/stable 1.0.47-3 armhf
+  Secure and efficient FTP server with MySQL user authentication
+
+pysieved/stable 1.2-1 all
+  managesieve server
+
+python-logilab-common/stable 1.4.2-1 all
+  useful miscellaneous modules used by Logilab projects
+
+python-migrate/stable 0.11.0-5 all
+  Database schema migration for SQLAlchemy - Python 2.7
+
+python-migrate-doc/stable 0.11.0-5 all
+  Database schema migration for SQLAlchemy - doc
+
+python-mysql.connector/stable 8.0.15-1 all
+  pure Python implementation of MySQL Client/Server protocol
+
+python-mysqldb/stable 1.3.10-2+b1 armhf
+  Python interface to MySQL
+
+python-mysqldb-dbg/stable 1.3.10-2+b1 armhf
+  Python interface to MySQL (debug extension)
+
+python-novaclient/stable 2:11.0.0-2 all
+  client library for OpenStack Compute API - Python 2.7
+
+python-novaclient-doc/stable 2:11.0.0-2 all
+  client library for OpenStack Compute API - doc
+
+python-os-apply-config/stable 0.1.14-1 all
+  Creates config files out of cloud metadata
+
+python-peewee/stable 3.7.0+dfsg-1 armhf
+  Simple ORM for PostgreSQL, MySQL and SQLite (Python 2)
+
+python-peewee-doc/stable 3.7.0+dfsg-1 all
+  Documentation pyhton peewee simple ORM
+
+python-pymysql/stable 0.9.3-1 all
+  Pure-Python MySQL driver - Python 2.x
+
+python-pymysql-doc/stable 0.9.3-1 all
+  Pure-Python MySQL driver - doc
+
+python-pysqlite2/stable 2.7.0-1 armhf
+  Python interface to SQLite 3
+
+python-storm/stable 0.19-2 armhf
+  object-relational mapper (ORM) for Python
+
+python-storm-dbg/stable 0.19-2 armhf
+  object-relational mapper (ORM) for Python - debugging files
+
+python-testing.mysqld/stable 1.4.0-3 all
+  Python testing.* framework - MySQLd helpers (Python 2)
+
+python3-logilab-common/stable,now 1.4.2-1 all [已安装，自动]
+  useful miscellaneous modules used by Logilab projects (Python3)
+
+python3-migrate/stable 0.11.0-5 all
+  Database schema migration for SQLAlchemy - Python 3.x
+
+python3-mysql.connector/stable 8.0.15-1 all
+  pure Python implementation of MySQL Client/Server protocol (Python3)
+
+python3-mysqldb/stable 1.3.10-2+b1 armhf
+  Python interface to MySQL
+
+python3-mysqldb-dbg/stable 1.3.10-2+b1 armhf
+  Python interface to MySQL (debug extension)
+
+python3-nova/stable 2:18.1.0-6 all
+  OpenStack Compute - libraries
+
+python3-novaclient/stable 2:11.0.0-2 all
+  client library for OpenStack Compute API - 3.x
+
+python3-peewee/stable 3.7.0+dfsg-1 armhf
+  Simple ORM for PostgreSQL, MySQL and SQLite (Python 3)
+
+python3-pymysql/stable 0.9.3-1 all
+  Pure-Python MySQL Driver - Python 3.x
+
+python3-testing.mysqld/stable 1.4.0-3 all
+  Python testing.* framework - MySQL helpers (Python 3)
+
+r-cran-dbi/stable 1.0.0-2 all
+  GNU R package providing a generic database interface
+
+r-cran-rmysql/stable 0.10.16-1+b1 armhf
+  GNU R package providing a DBI-compliant interface to MySQL
+
+r-cran-rodbc/stable 1.3-15-1+b1 armhf
+  GNU R package for ODBC database access
+
+recap/stable 2.0.2-1 all
+  Generates reports of various information about the server
+
+refdb-server/stable 1.0.2-3+b2 armhf
+  Reference database and bibliography tool - sql server
+
+request-tracker4/stable 4.4.3-2 all
+  extensible trouble-ticket tracking system
+
+resource-agents/stable 1:4.2.0-2+deb10u2 armhf
+  Cluster Resource Agents
+
+rhythmbox-ampache/stable 0.11.1+svn43-1 all
+  play audio streams from an Ampache server
+
+robojournal/stable 0.5-1+b4 armhf
+  cross-platform journal/diary tool
+
+robojournal-doc/stable 0.5-1 all
+  cross-platform journal/diary tool - documentation
+
+roundcube-mysql/stable 1.3.16+dfsg.1-1~deb10u1 all
+  metapackage providing MySQL dependencies for RoundCube
+
+rsyslog/stable,now 8.1901.0-1 armhf [已安装]
+  reliable system and kernel logging daemon
+
+rsyslog-mysql/stable 8.1901.0-1 armhf
+  MySQL output plugin for rsyslog
+
+rt4-db-mysql/stable 4.4.3-2 all
+  MySQL database backend for request-tracker4
+
+rt4-db-sqlite/stable 4.4.3-2 all
+  SQLite database backend for request-tracker4
+
+ruby-amazon-ec2/stable 0.9.17-3 all
+  Ruby library for accessing Amazon EC2
+
+ruby-dataobjects/stable 0.10.16-1 all
+  Unified interface to various databases for Ruby
+
+ruby-dataobjects-mysql/stable 0.10.16-2+b2 armhf
+  MySQL adapter for ruby-dataobjects
+
+ruby-foreigner/stable 1.7.4-1 all
+  Foreign Keys for Rails
+
+ruby-mysql2/stable 0.5.2-1 armhf
+  simple, fast MySQL library for Ruby
+
+ruby-peek-performance-bar/stable 1.3.0-1 all
+  peek into MySQL queries made during your application's requests
+
+ruby-sequel/stable 5.15.0-1 all
+  Simple, flexible, and powerful SQL database access toolkit for Ruby
+
+ruby-yaml-db/stable 0.7.0-1 all
+  library to export/import of database into/from yaml files
+
+sagan/stable 1.2.0-1 armhf
+  Real-time System & Event Log Monitoring System
+
+sagan-rules/stable 1:20170725-1 all
+  Real-time System & Event Log Monitoring System [rules]
+
+sbnc-dbg/stable 1.3.9-3+b1 armhf
+  IRC proxy for multiple users (debugging symbols)
+
+solr-common/stable 3.6.2+dfsg-20+deb10u2 all
+  Enterprise search server based on Lucene3 - common files
+
+sphinxsearch/stable 2.2.11-2+b1 armhf
+  Fast standalone full-text SQL search engine
+
+sputnik/stable 12.06.27-2 all
+  Extensible wiki
+
+sqlgrey/stable 1:1.8.0-1 all
+  Postfix Greylisting Policy Server
+
+sqlline/stable 1.0.2-8 all
+  JDBC command-line utility for issuing SQL
+
+stacks-web/stable 2.2+dfsg-1 all
+  web interface for displaying loci from short-read sequences
+
+sympa/stable 6.2.40~dfsg-1+deb10u1 armhf
+  Modern mailing list manager
+
+sysbench/stable 0.4.12-1.2+b1 armhf
+  Cross-platform and multi-threaded benchmark tool
+
+syslog-ng-mod-sql/stable 3.19.1-5 armhf
+  Enhanced system logging daemon (SQL plugin)
+
+tango-db/stable 9.2.5a+dfsg1-2+b2 armhf
+  TANGO distributed control system - database server
+
+tcl8.6-tdbc-mysql/stable 1.1.0-2 armhf
+  Tcl Database Connectivity
+
+tedia2sql/stable 1.2.12-3 all
+  Converts a Dia diagram to various SQL dialects
+
+test-kitchen/stable 1.23.2-2 all
+  integration tool for Chef
+
+tntdb-mysql4v5/stable 1.3-4+b1 armhf
+  MySQL backend for tntdb database access library
+
+tora/stable 2.1.3-4 armhf
+  graphical toolkit for database developers and administrators
+
+tora-dbg/stable 2.1.3-4 armhf
+  graphical toolkit for databaseis - debugging symbols
+
+torrentflux/stable 2.4-5.1 all
+  web based, feature-rich BitTorrent download manager
+
+tsung/stable 1.7.0-3+b3 armhf
+  distributed multi-protocol load testing tool
+
+ukolovnik/stable 1.5-3 all
+  Simple todo manager using PHP and MySQL
+
+ulogd2/stable 2.0.7-1+b1 armhf
+  Netfilter Userspace Logging Daemon
+
+ulogd2-mysql/stable 2.0.7-1+b1 armhf
+  MySQL extension to ulogd
+
+vbackup/stable 1.0.1-1.1 all
+  modular backup utility
+
+viewvc-query/stable 1.1.26-1 all
+  utility to query CVS and Subversion commit database
+
+voms-mysql-plugin/stable 3.1.7-2+b1 armhf
+  VOMS server plugin for MySQL
+
+w1retap-mysql/stable 1.4.4-3+b5 armhf
+  Data logger for 1-Wire weather sensors (MySQL plugin)
+
+yasat/stable 848-1 all
+  simple stupid audit tool
+
+z-push-state-sql/stable 2.4.5-2 all
+  open source implementation of the ActiveSync protocol - MySQL state backend
+
+zabbix-proxy-mysql/stable 1:4.0.4+dfsg-1 armhf
+  network monitoring solution - proxy (using MySQL)
+
+zabbix-server-mysql/stable 1:4.0.4+dfsg-1 armhf
+  network monitoring solution - server (using MySQL)
+
+zope-mysqlda/stable 3.1.1-1 all
+  database adapter for connecting Zope and MySQL
+
+zoph/stable 0.9.9-1 all
+  Web based digital image presentation and management system
+

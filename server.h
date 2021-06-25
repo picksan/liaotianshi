@@ -13,6 +13,7 @@ class server{
         ~server();//析构函数
         void run();//服务器开始服务
         static void RecvMsg(int conn);//子线程工作的静态函数
+        static void HandleRequest(int conn,string str);
 };
 
 #endif

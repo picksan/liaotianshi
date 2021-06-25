@@ -15,6 +15,7 @@
 #include <thread>
 #include <vector>
 #include <string>
+#include <mariadb/mysql.h>
 using namespace std;
 
 #endif
