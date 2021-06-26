@@ -84,8 +84,8 @@ void server::RecvMsg(int conn){
 void server::HandleRequest(int conn,string str){
     char buffer[1000];
     string name,pass;
-    // bool if_login=false;//记录当前服务对象是否成功登录
-    //string login_name;//记录当前服务对象的名字
+    bool if_login=false;//记录当前服务对象是否成功登录
+    string login_name;//记录当前服务对象的名字
     //string target_name;//记录发送信息时目标用户的名字
     //int group_num;//记录群号
 
@@ -104,8 +104,9 @@ void server::HandleRequest(int conn,string str){
 
     if(str.find("name:")!=str.npos){
         int p1=str.find("name:"),p2=str.find("pass:");
-        name=str.substr(p1+5,p2-5);//参数一开始位置 参数二长度
-        pass=str.substr(p2+5,str.length()-p2-4);
+        int key1_len=strlen("name:"),key2_len=strlen("pass:");
+        name=str.substr(p1+key1_len,p2-p1-key1_len);//参数一开始位置 参数二长度
+        pass=str.substr(p2+key2_len,str.length()-p2-key2_len);
         string search="INSERT INTO USER VALUES (\"";
         search+=name;
         search+="\",\"";
@@ -116,6 +117,49 @@ void server::HandleRequest(int conn,string str){
             fprintf(stderr, "%s\n", mysql_error(con));
             mysql_close(con);
             exit(EXIT_FAILURE);
+        }
+    }
+    else if(str.find("login:")!=str.npos){
+        int p1=str.find("login:"),p2=str.find("pass:");
+        int key1_len=strlen("login:"),key2_len=strlen("pass:");
+        name=str.substr(p1+key1_len,p2-p1-key1_len);//参数一开始位置 参数二长度
+        pass=str.substr(p2+key2_len,str.length()-p2-key2_len);
+        
+        string search="SELECT * FROM USER WHERE NAME=\"";
+        search+=name;
+        search+="\";";
+        cout<<"sql语句:"<<search<<endl;
+
+        auto search_res=mysql_query(con,search.c_str());
+        auto result=mysql_store_result(con);
+        int col=mysql_num_fields(result);//获取列数
+        int row=mysql_num_rows(result);//获取行数
+        
+        //查询到用户名
+        if(search_res==0&&row!=0){
+            cout<<"查询成功\n";
+            auto info=mysql_fetch_row(result);//获取一行的信息
+            cout<<"查询到用户名:"<<info[0]<<" 密码:"<<info[1]<<endl;
+            //密码正确
+            if(info[1]==pass){
+                cout<<"登录密码正确\n\n";
+                string str1="ok";
+                if_login=true;
+                login_name=name;//记录下当前登录的用户名
+                send(conn,str1.c_str(),str1.length(),0);
+            }
+            //密码错误
+            else{
+                cout<<"登录密码错误\n\n";
+                string str1="wrong";
+                send(conn,str1.c_str(),str1.length(),0);
+            }
+        }
+        //没找到用户名
+        else{
+            cout<<"查询失败\n\n";
+            string str1="wrong";
+            send(conn,str1.c_str(),str1.length(),0);
         }
     }
 }
