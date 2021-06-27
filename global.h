@@ -16,6 +16,8 @@
 #include <vector>
 #include <string>
 #include <mariadb/mysql.h> //数据库mariadb
+#include <unordered_map>
+#include <mutex>
 using namespace std;
 
 #endif
