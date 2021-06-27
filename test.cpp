@@ -22,6 +22,8 @@ int main()
     cout<<if_login<<login_name<<target_name<<target_conn<<endl;
     cout<<get<0>(info)<<get<1>(info)<<get<2>(info)<<get<3>(info)<<endl;
 
+    get<0>(info)=true;
+    
     // string name,pass;
     // string str("name:sdmpass:123456");
     // if(str.find("name:")!=str.npos){
