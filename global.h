@@ -19,6 +19,7 @@
 #include <unordered_map>
 #include <mutex>
 #include <set>
+#include <hiredis/hiredis.h>
 using namespace std;
 
 #endif

@@ -119,6 +119,31 @@ void server::HandleRequest(int conn,string str,tuple<bool,string,string,int,int>
         mysql_close(con);
         exit(EXIT_FAILURE);
     }
+
+    //连接redis数据库
+    redisContext *redis_target = redisConnect("127.0.0.1",6379);
+    if(redis_target->err){
+        redisFree(redis_target);
+        cout<<"连接redis失败"<<endl;
+    }
+    //先接收cookie看看redis是否保存该用户的登录状态
+    if(str.find("cookie:")!=str.npos){
+        string cookie=str.substr(7);
+        // 查询该cookie是否存在：hget cookie name
+        string redis_str="hget "+cookie+" name";
+        redisReply *r = (redisReply*)redisCommand(redis_target,redis_str.c_str());
+        string send_res;
+        //存在
+        if(r->str){
+            cout<<"查询redis结果："<<r->str<<endl;
+            send_res=r->str;
+        }
+        //不存在
+        else
+            send_res="NULL";
+        send(conn,send_res.c_str(),send_res.length()+1,0);
+    }
+
     //注册
     if(str.find("name:")!=str.npos){
         int p1=str.find("name:"),p2=str.find("pass:");
@@ -172,6 +197,24 @@ void server::HandleRequest(int conn,string str,tuple<bool,string,string,int,int>
                     name_sock_map[login_name]=conn;//记录下名字和文件描述符的对应关系
                 }
                 
+                //随机生成sessionid并发送到客户端
+                srand(time(nullptr));//初始化随机种子
+                for(int i=0;i<10;i++){
+                    int type=rand()%3;//type为0代表数字，为1代表小写字母，为2代表大写字母
+                    if(type==0)
+                        str1+='0'+rand()%9;
+                    else if(type==1)
+                        str1+='a'+rand()%26;
+                    else if(type==2)
+                        str1+='A'+rand()%26;
+                }
+                //将sessionid存入redis
+                string redis_str="hset "+str1.substr(2)+" name "+login_name;//去掉ok
+                redisReply *r = (redisReply*)redisCommand(redis_target,redis_str.c_str());
+                //设置生存时间,默认300秒
+                redis_str="expire "+str1.substr(2)+" 300";
+                r=(redisReply*)redisCommand(redis_target,redis_str.c_str());
+                cout<<"随机生成的sessionid为："<<str1.substr(2)<<endl;
                 send(conn,str1.c_str(),str1.length(),0);
             }
             //密码错误
@@ -249,6 +292,7 @@ void server::HandleRequest(int conn,string str,tuple<bool,string,string,int,int>
             }
         }
     }
+    
 
     //更新实参
     get<0>(info)=if_login;//记录当前服务对象是否成功登录
