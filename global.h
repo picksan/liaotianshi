@@ -18,6 +18,7 @@
 #include <mariadb/mysql.h> //数据库mariadb
 #include <unordered_map>
 #include <mutex>
+#include <set>
 using namespace std;
 
 #endif
