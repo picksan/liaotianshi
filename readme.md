@@ -34,3 +34,45 @@ test_redis.cpp
 cookie.txt
 ```
 
+### 编译
+
+编译前安装的库
+
+```
+# 安装mysql(可选)
+sudo apt-get install mysql-server 
+sudo apt-get install mysql-client 
+sudo apt-get install libmysqlclient-dev
+
+# 安装mariadb，mysql的替代品
+sudo apt-get install mariadb-server 
+sudo apt-get install mariadb-client
+sudo apt-get install libmariadbclient-dev
+
+#安装redis
+sudo apt-get install redis-server
+
+# 安装hiredis，c语言连接库
+sudo apt search hiredis
+```
+
+安装完数据库后需要创建表，详细请看教程
+
+编译
+
+```
+make
+```
+
+服务端运行
+
+```
+./test_server
+```
+
+客户端运行
+
+```
+./test_client
+```
+
