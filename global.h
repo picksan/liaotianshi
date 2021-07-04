@@ -20,6 +20,7 @@
 #include <mutex>
 #include <set>
 #include <hiredis/hiredis.h>
+#include <fstream> 
 using namespace std;
 
 #endif
